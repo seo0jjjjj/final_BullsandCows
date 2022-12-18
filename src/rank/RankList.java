@@ -28,7 +28,7 @@ public class RankList {
         if (rl.size() >= 10) {
             // 현재 rank중 가장 마지막 기록과 비교 후, Insert
             if (newRank.recode <= rl.get(9).recode) {
-                System.out.println(rl.get(9).toString());
+                //System.out.println(rl.get(9).toString()); 삭제하는 랭킹 출력(확인용)
                 rl.remove(9);
             }
         }

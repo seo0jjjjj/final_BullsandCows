@@ -118,7 +118,7 @@ public class IOManager {
             //bw.close();
             fw.close();
             br.close();
-            System.out.println(dummy);
+            //System.out.println(dummy);
         } catch (Exception e) {
             e.printStackTrace();
         }
